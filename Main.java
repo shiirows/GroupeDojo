@@ -20,16 +20,16 @@ public class Main {
 	   
 	
 		  List<String> eleve = new ArrayList<String>(
-				    Arrays.asList("alexandre","Lucas","Mathieu","Maxime","Gabrielle","Loïc","Tju","Fethi",
-				    		"Mauranne", "Mohamed", "Fabien", "Laura", "Harmann", "Adel", "Rachid")
+				    Arrays.asList("alexandre","Lucas","Mathieu","Maxime","Gabrielle","LoÃ¯c","Tju","Fethi",
+				    		"Mauranne", "Mohamed", "Fabien", "Laura", "Hermann", "Adel", "Rachid")
 				);
 		 
 		 
 		  List<String> groupe = new ArrayList<String>(
-				    Arrays.asList("crocodile","mouton","sardine","Les pourris gâtés","Dragon Work","Forever united","Office's kings","Pokemon",
-				    		"Les reines du succès", "Les irréductibles", "Les bras cassés", "Les fayots", "Les déglingos", "les idiots du village", "La fête du slip",
+				    Arrays.asList("crocodile","mouton","sardine","Les pourris gÃ¢tÃ©s","Dragon Work","Forever united","Office's kings","Pokemon",
+				    		"Les reines du succÃ¨s", "Les irrÃ©ductibles", "Les bras cassÃ©s", "Les fayots", "Les dÃ©glingos", "les idiots du village", "La fÃªte du slip",
 				    		"Les knackis","Une baguette s'il vous plait","Jamais 2 sans 3","Les bombasses","Les 5 doigts de la main","La chambre des secrets"
-				    		,"Les explorateurs de géographie","L'asile","Briseurs de règles","Les frères d'armes")
+				    		,"Les explorateurs de gÃ©ographie","L'asile","Briseurs de rÃ¨gles","Les frÃ¨res d'armes")
 				);
 		 
 		        
