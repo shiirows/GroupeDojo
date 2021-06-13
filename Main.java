@@ -41,18 +41,22 @@ public class Main {
 	           
 	            List<String> groupe1 = groupe.subList(0, 7);
 				List<String> eleve1 = eleve.subList(0, 5);
-				System.out.println( "Groupe : " + groupe1.get( random.nextInt(groupe1.size() ) )+  " " + eleve1);
+				System.out.println( "Groupe : " + groupe1.get( random.nextInt(groupe1.size() ) )+  " " + 
+				eleve1 + " " + "chef du groupe " + eleve1.get( random.nextInt(eleve1.size() ) ));
+				
 				System.out.println("-----------------------");
 				
 				List<String> groupe2 = groupe.subList(7, 14);
 				List<String> eleve2 = eleve.subList(5, 10);
-			    System.out.println( "Groupe : " + groupe2.get( random.nextInt(groupe2.size() ) ) +  " " + eleve2);
+			    System.out.println( "Groupe : " + groupe2.get( random.nextInt(groupe2.size() ) ) +  " " +
+				eleve2 + " " + "chef du groupe " + eleve2.get( random.nextInt(eleve2.size() ) ));
 				System.out.println("-----------------------");
 				
 				
 				List<String> groupe3 = groupe.subList(14, 25);
 			    List<String> eleve3 = eleve.subList(10, 15);
-				System.out.println( "Groupe : " + groupe3.get( random.nextInt(groupe3.size() ) ) +  " " + eleve3);
+				System.out.println( "Groupe : " + groupe3.get( random.nextInt(groupe3.size() ) ) +  " " + 
+			    eleve3 + " " + "chef du groupe " + eleve3.get( random.nextInt(eleve3.size() ) ));
 			 }
 				
 
